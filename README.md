@@ -1,2 +1,2 @@
-# PGPJI
-Plano de Gerenciamento de Projetos para Jogos Independentes
+# PMPIG
+Project Management Plan for Independent Games 
