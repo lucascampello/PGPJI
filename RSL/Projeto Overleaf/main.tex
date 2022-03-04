@@ -1,0 +1,333 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass [11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage[alf]{abntex2cite}
+\usepackage[brazilian,hyperpageref]{backref}
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+\renewcommand{\backref}{}
+\renewcommand*{\backrefalt}[4]{
+\ifcase #1 %
+Nenhuma citação no texto.%
+\or
+Citado na página #2.%
+\else
+Citado #1 vezes nas páginas #2.%
+\fi}%
+
+\title{PGPJI: Plano de Gerenciamento de Projetos para Jogos Independentes}
+\author{Lucas Campello da Pieva (lucaspieva.aluno@unipampa.edu.br),\\ Bernardino (bernardino@unipampa.edu.br)}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+\section{Planning}
+
+\subsection{Description}
+Pesquisar metodologias, processos, heurísticas e fluxo de trabalho no desenvolvimento de jogos onde há limitações de equipe, prazos e  custos, realidade comumente encontrada em produção de jogos independentes.
+
+\subsection{Objectives}
+Desenvolver referencial teórico para validação da pesquisa em gerenciamento de projetos para jogos independente.
+
+\subsection{Domains}
+\begin{itemize}
+	\item Project Management;
+\end{itemize}
+
+\subsection{Languages}
+\begin{itemize}
+	\item English;
+\end{itemize}
+
+\subsection{Studies Types}
+\begin{itemize}
+	\item All types;
+\end{itemize}
+
+\subsection{Keywords}
+Project Management.=PM.=Game Design.
+
+\subsection{Research Questions}
+\begin{itemize}
+	\item \textbf{RQ01} What is most up to date in terms of workflow, methodology, process, method, guideline, or heuristic of game project management?;
+	\item \textbf{RQ02} Which are the tools and technologies that support the game project management?;
+	\item \textbf{RQ03} What are the principal phases/steps of the game development process identified by RQ02?;
+\end{itemize}
+
+\subsection{Databases}
+\begin{table}[!htb]
+\caption[Databases used at work]{Databases used at work.}
+\label{tab:databases}
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Database} & \textbf{Link} \\ \midrule
+IEEE & https://ieeexplore.ieee.org/Xplore/home.jsp \\ 
+ACM & https://dl.acm.org/ \\ 
+ENGINEERING VILLAGE & https://www.engineeringvillage.com/home.url \\ 
+SCOPUS & https://www.scopus.com/home.uri \\ \bottomrule 
+\end{tabular}
+\end{table}
+
+\subsection{Terms and Synonyms}
+\begin{table}[H]
+\caption[Terms and Synonyms used at work]{Terms and Synonyms used at work.}
+\label{tab:terms}
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Term} & \textbf{Synonyms} \\ \midrule
+Game & \begin{tabular}[c]{@{}l@{}}Indie\\Gaming\\Gamification\\\end{tabular} \\ \bottomrule 
+Workflow & \begin{tabular}[c]{@{}l@{}}Methodology\\Process\\Method\\Guideline\\Heuristic\\Engineering\\Management\\Quality\\Requirement\\\end{tabular} \\ \bottomrule 
+Design & \begin{tabular}[c]{@{}l@{}}Project\\Development\\Prototype\\Modeling\\Analysis\\Test\\Verification\\Validation\\\end{tabular} \\ \bottomrule 
+Game Project & \begin{tabular}[c]{@{}l@{}}Game Development\\Game Design\\Game Modeling\\Game Prototyping\\Project Management\\Game Design Document\\GDD\\Game Management\\\end{tabular} \\ \bottomrule 
+\end{tabular}
+\end{table}
+
+\subsection{Search Strings}
+\begin{itemize}
+\item \textbf{Generic: }(Game OR Indie OR Gaming OR Gamification) AND (Workflow OR Methodology OR Process OR Method OR Guideline OR Heuristic OR Engineering OR Management OR Quality OR Requeriment) AND (Design OR Project OR Development OR Prototype OR Modeling OR Analysis OR Test OR Verification OR Validation) AND ("Game Project" OR "Game Development" OR "Game Design" OR "Game Modeling" OR "Game Prototyping" OR "Project Management" OR "Game Design Document" OR GDD OR "Game Management"); 
+\item \textbf{IEEE: }(Game OR Indie OR Gaming OR Gamification) AND (Workflow OR Methodology OR Process OR Method OR Guideline OR Heuristic OR Engineering OR Management OR Quality OR Requirement) AND (Design OR Project OR Development OR Prototype OR Modeling OR Analysis OR Test OR Verification OR Validation) AND ("Game Project" OR "Game Development" OR "Game Design" OR "Game Modeling" OR "Game Prototyping" OR "Project Management" OR "Game Design Document" OR GDD OR "Game Management"); 
+\item \textbf{ACM: }(Game Indie Gaming Gamification) AND (Workflow Methodology Process Method Guideline Heuristic Engineering Management Quality Requirement) AND (Design Project Development Prototype Modeling Analysis Test Verification Validation) AND ("Game Project" "Game Development" "Game Design" "Game Modeling" "Game Prototyping" "Project Management" "Game Design Document" GDD "Game Management"); 
+\item \textbf{ENGINEERING VILLAGE: }(((Game OR Indie OR Gaming OR Gamification) WN KY) AND ((Workflow OR Methodology OR Process OR Method OR Guideline OR Heuristic OR Engineering OR Management OR Quality OR Requirement) WN KY) AND ((Design OR Project OR Development OR Prototype OR Modeling OR Analysis OR Test OR Verification OR Validation) WN KY) AND (("Game Project" OR "Game Development" OR "Game Design" OR "Game Modeling" OR "Game Prototyping" OR "Project Management" OR "Game Design Document" OR GDD OR "Game Management") WN KY) AND ({english} WN LA); 
+\item \textbf{SCOPUS: }TITLE-ABS-KEY (Game OR Indie OR Gaming OR Gamification) AND (Workflow OR Methodology OR Process OR Method OR Guideline OR Heuristic OR Engineering OR Management OR Quality OR Requirement) AND (Design OR Project OR Development OR Prototype OR Modeling OR Analysis OR Test OR Verification OR Validation) AND ("Game Project" OR "Game Development" OR "Game Design" OR "Game Modeling" OR "Game Prototyping" OR "Project Management" OR "Game Design Document" OR GDD OR "Game Management"); 
+\end{itemize}
+
+\subsection{Search Strategy}
+  The search strategy is divided into 5 sequential steps:
+- Search  databases  and  initial  selection;
+- Liminate redundancies;
+- Intermediate selection;
+- Final selection and eliminate divergences;
+- Quality assessment;
+
+\subsection{Inclusion and Exclusion Criteria}
+Inclusion Rule: Any
+
+\begin{itemize}
+\item \textbf{IC01: }The primary study must propose a workflow, methodology, process, method, guideline, heuristic, engineering, management or quality	 for a indie game project.;
+\end{itemize}
+
+Exclusion Rule: Any
+
+\begin{itemize}
+\item \textbf{EC01: }Duplicate primary studies.;
+\item \textbf{EC02: }Studies that is not written in english.;
+\item \textbf{EC03: }Studies that does not provide full access.;
+\item \textbf{EC04: }Studies that does not satisfy the inclusion criteria.;
+\item \textbf{EC05: }Secondary and tertiary studies.;
+\item \textbf{EC06: }Primary studies with less than 6 pages.;
+\item \textbf{EC07: }Studies over 10 years old.;
+\item \textbf{EC08: }Study is demonstrating to use games in educational proposite;
+\item \textbf{EC09: }Study is demonstrating to use serious games in training or simulations;
+\item \textbf{EC10: }Study apply game theory algorithms in a computacion area;
+\item \textbf{EC11: }Study presents the use of games in health care;
+\end{itemize}
+
+\subsection{General Scores}
+Score Minimum to Approve: Good.
+
+\begin{table}[!htb]
+\caption[General Scores used at work]{General Score used at work.}
+\label{tab:genscores}
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Start Interval} & \textbf{End Interval} & \textbf{Description} \\ \midrule
+0 & 1 & Poor \\ \bottomrule 
+1.1 & 2 & Average \\ \bottomrule 
+2.1 & 3 & Good \\ \bottomrule 
+3.1 & 4 & Very Good \\ \bottomrule 
+4.1 & 5 & Excellent \\ \bottomrule 
+\end{tabular}
+\end{table}
+
+\subsection{Quality Questions}
+\begin{itemize}
+\item \textbf{Q01: } Does the study present any workflow, methodology, process, method, guideline, heuristic, engineering, management or quality for project a game?;
+\item \textbf{Q02: } 	Does the study present the complete game development cycle?;
+\item \textbf{Q03: } Does the study present a practice based on the reality of the gaming industry?;
+\item \textbf{Q04: } Does the study presents the implementation of the game project management methodology?;
+\end{itemize}
+
+\begin{table}[!htb]
+\caption[Quality Questions used at work]{Quality Questions used at work.}
+\label{tab:qa}
+\centering
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{ID} & \textbf{Rules} & \textbf{Weight} & \textbf{\begin{tabular}[c]{@{}l@{}}Minimum\ to\ Approve\end{tabular}} \\ \midrule
+Q01& \begin{tabular}[c]{@{}l@{}}Yes\\Partially\\No\\\end{tabular} & 1.5 & Partially \\ \bottomrule 
+Q02& \begin{tabular}[c]{@{}l@{}}Full\\Partially\\Little\\Nothing\\\end{tabular} & 1.5 & Little \\ \bottomrule 
+Q03& \begin{tabular}[c]{@{}l@{}}Specifically\\Superficially\\No\\\end{tabular} & 1 & Not exist minimum \\ \bottomrule 
+Q04& \begin{tabular}[c]{@{}l@{}}Yes\\Partially\\No\\\end{tabular} & 1 & Not exist minimum \\ \bottomrule 
+\end{tabular}
+\end{table}
+
+\subsection{Extraction Questions}
+\begin{itemize}
+\item \textbf{DE01: } Title;
+\item \textbf{DE02: } Abstract;
+\item \textbf{DE03: } Authors;
+\item \textbf{DE04: } Year;
+\item \textbf{DE06: } Source;
+\item \textbf{DE09: } Game Project Management - Description;
+\item \textbf{DE11: } Support the game project managemen - Description;
+\item \textbf{DE13: } Stage or phase involving - Description;
+\item \textbf{DE08: } Game Project Management;
+\item \textbf{DE12: } Stage or phase involving the game development cycle;
+\item \textbf{DE05: } Database;
+\item \textbf{DE07: } Document Type;
+\item \textbf{DE10: } Type of Support the game project management;
+\end{itemize}
+
+\begin{table}[!htb]
+\caption[Extraction Questions used at work]{Extraction Questions used at work.}
+\label{tab:qe}
+\centering
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{ID} & \textbf{Type} & \textbf{Options} \\ \midrule
+DE01& Text & \begin{tabular}[c]{@{}l@{}}\end{tabular} \\ \bottomrule 
+DE02& Text & \begin{tabular}[c]{@{}l@{}}\end{tabular} \\ \bottomrule 
+DE03& Text & \begin{tabular}[c]{@{}l@{}}\end{tabular} \\ \bottomrule 
+DE04& Text & \begin{tabular}[c]{@{}l@{}}\end{tabular} \\ \bottomrule 
+DE06& Text & \begin{tabular}[c]{@{}l@{}}\end{tabular} \\ \bottomrule 
+DE09& Text & \begin{tabular}[c]{@{}l@{}}\end{tabular} \\ \bottomrule 
+DE11& Text & \begin{tabular}[c]{@{}l@{}}\end{tabular} \\ \bottomrule 
+DE13& Text & \begin{tabular}[c]{@{}l@{}}\end{tabular} \\ \bottomrule 
+DE08& Multiple Choice List & \begin{tabular}[c]{@{}l@{}}Framework\\Guideline\\Heuristic\\Method\\Methodology\\Process\\Workflow\\\end{tabular} \\ \bottomrule 
+DE12& Multiple Choice List & \begin{tabular}[c]{@{}l@{}}Game Definition\\Pre Production\\Requirement Analysis\\Art and Design\\Sound and Music\\Algorithms and Programming\\Documentation\\Development\\Testing\\Prototyping\\Verification and Validation\\Publishing the Game\\Marketing the Game\\User Interface\\\end{tabular} \\ \bottomrule 
+DE05& Pick One List & \begin{tabular}[c]{@{}l@{}}ACM\\Engineering Village\\IEEE\\Scopus\\\end{tabular} \\ \bottomrule 
+DE07& Pick One List & \begin{tabular}[c]{@{}l@{}}Article\\Article in Press\\Conference Paper\\Thesis\\\end{tabular} \\ \bottomrule 
+DE10& Pick One List & \begin{tabular}[c]{@{}l@{}}Tool\\Tecnology\\\end{tabular} \\ \bottomrule 
+\end{tabular}
+\end{table}
+
+\section{Import Studies}
+
+\subsection{Studies per Database}
+\begin{table}[!htb]
+\caption[Studies per Database]{Studies per Database.}
+\label{tab:studiesDatabases}
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Database} & \textbf{Number of Studies} \\ \midrule
+IEEE & 690 \\ 
+ACM & 640 \\ 
+ENGINEERING VILLAGE & 2343 \\ 
+SCOPUS & 2985 \\ 
+\end{tabular}
+\end{table}
+
+\section{Selection Studies}
+
+\subsection{Studies per Status Selection}
+\begin{table}[!htb]
+\caption[Studies per Status Selection]{Studies per Status Selection.}
+\label{tab:studiesSelection}
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Status} & \textbf{Number of Studies} \\ \midrule
+Accepted & 327 \\ 
+Rejected & 3407 \\ 
+Unclassified & 0 \\ 
+Duplicate & 2924 \\ 
+Removed & 0 \\ 
+Total & 6658 \\ 
+\end{tabular}
+\end{table}
+
+\section{Quality Assessment}
+
+\subsection{Quality Assessment}
+\begin{table}[!htb]
+\caption[Quality Assessment]{Quality Assessment.}
+\label{tab:studiesQuality}
+\centering
+\begin{tabular}{@{}llllllll@{}}
+\toprule
+\textbf{ID} & \textbf{Q01} &\textbf{Q02} &\textbf{Q03} &\textbf{Q04} & \textbf{General Score} & \textbf{Score} & \textbf{Status} \\ \midrule
+\citeonline{13854} &Partially &Partially &Specifically &Yes &Very Good & 3.725 & Accepted \\ 
+\citeonline{13856} &Partially &Full &Superficially &Partially &Very Good & 3.25 & Accepted \\ 
+\citeonline{13866} &Partially &Partially &No &Yes &Good & 2.725 & Accepted \\ 
+\citeonline{13878} &Partially &Full &No &Partially &Good & 2.75 & Accepted \\ 
+\citeonline{13879} &Yes &Full &Superficially &No &Very Good & 3.5 & Accepted \\ 
+\citeonline{13880} &Yes &Full &Superficially &No &Very Good & 3.5 & Accepted \\ 
+\citeonline{13881} &Yes &Full &Superficially &No &Very Good & 3.5 & Accepted \\ 
+\citeonline{13882} &Yes &Partially &Specifically &No &Very Good & 3.475 & Accepted \\ 
+\citeonline{13905} &Yes &Little &Specifically &Partially &Very Good & 3.525 & Accepted \\ 
+\citeonline{13913} &Yes &Partially &Specifically &Yes &Excellent & 4.475 & Accepted \\ 
+\citeonline{13916} &Partially &Partially &No &Yes &Good & 2.725 & Accepted \\ 
+\citeonline{13946} &Yes &Full &Specifically &Yes &Excellent & 5 & Accepted \\ 
+\citeonline{13983} &Yes &Partially &Superficially &No &Good & 2.975 & Accepted \\ 
+\citeonline{13987} &Partially &Little &Superficially &Partially &Good & 2.275 & Accepted \\ 
+\citeonline{14038} &Yes &Full &Superficially &Yes &Excellent & 4.5 & Accepted \\ 
+\citeonline{14050} &Partially &Partially &Superficially &Yes &Very Good & 3.225 & Accepted \\ 
+\citeonline{14073} &Yes &Little &Superficially &No &Good & 2.525 & Accepted \\ 
+\citeonline{14112} &Partially &Little &Superficially &Yes &Good & 2.775 & Accepted \\ 
+\citeonline{14213} &Yes &Partially &Superficially &Yes &Very Good & 3.975 & Accepted \\ 
+\citeonline{14288} &Yes &Partially &Specifically &Yes &Excellent & 4.475 & Accepted \\ 
+\citeonline{14489} &Yes &Partially &Superficially &Partially &Very Good & 3.475 & Accepted \\ 
+\citeonline{14549} &Yes &Partially &Specifically &Yes &Excellent & 4.475 & Accepted \\ 
+\citeonline{14557} &Partially &Little &Superficially &Partially &Good & 2.275 & Accepted \\ 
+\citeonline{14562} &Yes &Partially &Superficially &Yes &Very Good & 3.975 & Accepted \\ 
+\citeonline{14568} &Partially &Little &Specifically &Partially &Good & 2.775 & Accepted \\ 
+\citeonline{14611} &Partially &Little &Specifically &No &Good & 2.275 & Accepted \\ 
+\citeonline{14628} &Yes &Partially &Superficially &No &Good & 2.975 & Accepted \\ 
+\citeonline{14830} &Yes &Little &Superficially &Yes &Very Good & 3.525 & Accepted \\ 
+\citeonline{14844} &Yes &Full &No &Yes &Very Good & 4 & Accepted \\ 
+\citeonline{15033} &Yes &Partially &No &Partially &Good & 2.975 & Accepted \\ 
+\citeonline{15060} &Yes &Partially &Specifically &Yes &Excellent & 4.475 & Accepted \\ 
+\citeonline{15199} &Yes &Partially &Superficially &Yes &Very Good & 3.975 & Accepted \\ 
+\citeonline{15242} &Yes &Partially &No &Yes &Very Good & 3.475 & Accepted \\ 
+\citeonline{15528} &Yes &Partially &Superficially &No &Good & 2.975 & Accepted \\ 
+\citeonline{15538} &Yes &Partially &No &Yes &Very Good & 3.475 & Accepted \\ 
+\citeonline{15741} &Partially &Little &Specifically &No &Good & 2.275 & Accepted \\ 
+\citeonline{16094} &Partially &Partially &Superficially &Partially &Good & 2.725 & Accepted \\ 
+\citeonline{16334} &Yes &Partially &Superficially &No &Good & 2.975 & Accepted \\ 
+\citeonline{16366} &Yes &Full &No &Partially &Very Good & 3.5 & Accepted \\ 
+\citeonline{16405} &Yes &Partially &Superficially &No &Good & 2.975 & Accepted \\ 
+\citeonline{16408} &Yes &Full &Specifically &No &Very Good & 4 & Accepted \\ 
+\citeonline{16418} &Yes &Full &Specifically &Yes &Excellent & 5 & Accepted \\ 
+\citeonline{16433} &Partially &Little &Specifically &No &Good & 2.275 & Accepted \\ 
+\citeonline{16456} &Partially &Little &Specifically &No &Good & 2.275 & Accepted \\ 
+\citeonline{16497} &Yes &Partially &Specifically &Partially &Very Good & 3.975 & Accepted \\ 
+\citeonline{16500} &Yes &Partially &No &No &Good & 2.475 & Accepted \\ 
+\citeonline{16518} &Yes &Partially &No &No &Good & 2.475 & Accepted \\ 
+\citeonline{16634} &Yes &Full &No &Yes &Very Good & 4 & Accepted \\ 
+\citeonline{16683} &Yes &Full &Specifically &Partially &Excellent & 4.5 & Accepted \\ 
+\citeonline{16702} &Yes &Partially &No &No &Good & 2.475 & Accepted \\ 
+\citeonline{16716} &Yes &Full &No &Partially &Very Good & 3.5 & Accepted \\ 
+\citeonline{16817} &Yes &Partially &No &No &Good & 2.475 & Accepted \\ 
+\citeonline{17091} &Yes &Partially &No &Yes &Very Good & 3.475 & Accepted \\ 
+\citeonline{17125} &Yes &Partially &No &Partially &Good & 2.975 & Accepted \\ 
+\citeonline{17127} &Yes &Partially &No &Partially &Good & 2.975 & Accepted \\ 
+\citeonline{17263} &Yes &Partially &No &No &Good & 2.475 & Accepted \\ 
+\citeonline{17516} &Yes &Full &No &No &Good & 3 & Accepted \\ 
+\citeonline{18670} &Yes &Full &No &Partially &Very Good & 3.5 & Accepted \\ 
+\citeonline{18799} &Yes &Full &No &No &Good & 3 & Accepted \\ 
+\citeonline{18912} &Yes &Partially &No &Yes &Very Good & 3.475 & Accepted \\ 
+\citeonline{19254} &Yes &Full &Superficially &No &Very Good & 3.5 & Accepted \\ 
+\citeonline{19278} &Yes &Full &No &Partially &Very Good & 3.5 & Accepted \\ 
+\citeonline{20131} &Yes &Partially &No &No &Good & 2.475 & Accepted \\ 
+\citeonline{20151} &Yes &Partially &Specifically &No &Very Good & 3.475 & Accepted \\ 
+\citeonline{20378} &Yes &Partially &No &Yes &Very Good & 3.475 & Accepted \\ 
+\end{tabular}
+\end{table}
+
+\bibliography{Bib}
+\end{document}
