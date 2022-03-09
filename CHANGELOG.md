@@ -4,6 +4,7 @@
 ## 2022-03-08
 ### Added
 - Criação deste Changelog.
+- Criação de Gráfico de Pesquisadores x País (Ainda em etapa de avaliação junto ao orientador)
  
 ## 2022-03-07
 - Reunião semanal com Orientador refente ao acompanhamento das atividades e definições de novas etapas do trabalho.
